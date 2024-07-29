@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding:0 ;
+    box-sizing: border-box;
+    /* border: 5px solid; */
+}
+#container{
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  /* display:flex; */
+  margin: 10px ;
+
+
+}
+.abc{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+header{
+    height: 15%;
+    width: 98%;
+    /* margin: 5px; */
+    border: 5px solid black;
+    background-color: rgb(94, 56, 184);
+    color: white;
+    /* text-align: center; */
+   
+    /* border: 5px solid; */
+}
+#div{
+    height: 67%;
+    width: 100%;
+    display: flex;
+}
+#div1{
+    height: 100%;
+    width: 17%;
+    margin: 0;
+
+}
+#div2{
+    height: 96%;
+    width: 80.5%;
+    /* background-color: rgb(141, 86, 86); */
+    margin: 5px;
+    /* border: 5px solid;/ */
+    /* margin: 0; */
+}
+#div3{
+    height: 49%;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, rgb(113, 10, 247),rgb(33, 96, 222),rgb(19, 160, 216));        border: 5px solid black;
+}
+#div4{
+    margin-top: 8px;
+    height: 49%;
+    width: 100%;
+    /* background-color: red; */
+    /* margin-top: 10px; */
+    /* margin: 5px; */
+    display: flex;
+}
+#div5{
+    height: 100%;
+    width: 49%;
+    background-image: linear-gradient(to bottom right, rgb(113, 10, 247),rgb(33, 96, 222),rgb(19, 160, 216));    border: 5px solid black;
+
+    
+}
+#div6{
+    height: 100%;
+    width: 50%;
+    background-image: linear-gradient(to bottom right, rgb(113, 10, 247),rgb(33, 96, 222),rgb(19, 160, 216));
+    border: 5px solid black;
+    margin-left: 8px;
+
+}
+aside{
+    height: 96%;
+    width: 96%;
+    background-color: rgb(69, 169, 149);
+    margin: 5px;
+    margin-bottom: 5px;
+    border: 5px solid black;
+}
+footer{
+    height: 15%;
+    width: 97%;
+    margin-left: 6px;
+    background-color:rgb(94, 67, 163);
+    border: 5px solid  black ;
+}

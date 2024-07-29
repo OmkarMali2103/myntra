@@ -1,0 +1,68 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+#container{
+    height: 500px;
+    width: 800px;
+    border: 1px solid grey;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#container>#logo{
+    height: 400px;
+    width: 40%;
+}
+#container>#logo>img{
+    height: 300px;
+    width: 300px;
+
+}
+#container>#info>#model{
+    font-size: 30px;
+
+}
+#container>#info>#model+#description{
+    font-size: 25px;
+    padding-top: 40px;
+
+}
+#container #btn{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    gap: 20px;
+
+}
+#container button{
+    padding: 8px;
+    font-size: 20px;
+    
+}
+#container #discount{
+    font-size: 35px;
+}
+#coontainer #buy{
+    background-color: red;
+    width: 200px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+
+}
+#container #cart{
+    background-color: orange;
+    width: 200px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+
+}
+#container del{
+    color: blue;
+}

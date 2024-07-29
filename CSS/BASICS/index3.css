@@ -1,0 +1,39 @@
+/* #a{
+    height: 200px !important;
+    width: 200px !important;
+    background-color: orange !important;
+
+
+}
+#a{
+    height: 500px;
+    width: 500px;
+    background-color: red;
+}
+#a:hover{
+    
+       visibility: visible;
+       display: block ;
+       
+   
+}
+#b{
+    height: 200px;
+    width: 200px;
+    background-color: wheat;
+    visibility: hidden;
+    display: none;
+ 
+}
+#c{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+#d{
+    height: 200px;
+    width: 200px;
+} */
+#navbar{
+
+}

@@ -1,0 +1,13 @@
+div {
+height: 300px;
+width: 300px;
+border: 2px solid;
+background-color: red;
+/* background-color: #ffffff   ;  */
+/* background-color: rgb(rgb(138, 70, 70), rgb(105, 255, 105), rgb(102, 102, 194)); */
+/* background-color: rgba(red, green, blue, alpha); */
+/* background-color: hsl(234, 20%, 30%); */
+/* background-color: hsla(321, 23%, 30%,0.5); */
+}
+
+

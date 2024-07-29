@@ -1,0 +1,37 @@
+:root{
+    --bg:blue;
+}
+div{
+    height: 200px;
+    width: 200px;
+}
+#a{
+    background-color: var(--bg);
+}
+#b{
+    background-color: red;
+}
+#c{
+    background-color: red;
+}
+#d{
+    background-color: red;
+}
+#e{
+    background-color: red;
+}
+#f{
+    background-color: red;
+}
+#g{
+    background-color: red;
+}
+#h{
+    background-color: red;
+}
+#i{
+    background-color: red;
+}
+#j{
+    background-color: red;
+}

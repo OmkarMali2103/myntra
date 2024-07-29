@@ -1,0 +1,35 @@
+img{
+    height: 200px;
+    width: 200px;
+}
+
+#bird1{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+#bird2{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+#bird3{
+    position:absolute;
+    top: 300px;
+    left: 150px;
+}
+#bird1:hover{
+    
+    border-radius: 100%;
+    z-index: 1;
+}
+#bird2:hover{
+   
+    border-radius: 100%;
+    z-index: 2;
+}
+#bird3:hover{
+    
+    border-radius: 100%;
+    z-index: 3;
+}

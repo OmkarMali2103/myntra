@@ -1,0 +1,22 @@
+#para::first-letter{
+    font-size: 32px;
+    background-color: black;
+    color: red;
+}
+#para::first-line{
+    background-color: yellow;
+}
+li::marker{
+    color: yellow;
+}
+li::after{
+    content: "hello";
+}
+li::before{
+    content: "😘";
+}
+li::selection{
+    user-select: none;
+    /* background-color: black;
+    /* color: red; */
+}

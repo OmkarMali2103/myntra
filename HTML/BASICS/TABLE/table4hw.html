@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .yellow{
+            background-color: hwb(59 78% 2%);
+        }
+        .green{
+            background-color: rgb(230, 248, 202);
+        }
+        .purple{
+            background-color: rgb(240, 229, 249);
+        }
+    </style>
+</head>
+<body>
+    <table style="text-align: center;" border="1px" cellpadding="10">
+        <thead>
+            <tr>
+                <td rowspan="3">Day</td>
+                <td colspan="3">Seminar</td>
+            </tr>
+            <tr>
+                <td colspan="2">Schedule</td>
+                <td rowspan="2">Topic</td>
+            </tr>
+            <tr>
+                <td>Begin</td>
+                <td>End</td>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td  rowspan="2" class="yellow">8.00 a.m.</td>
+                <td rowspan="2" class="purple">5.00 p.m.</td>
+                <td>Introduction to XML</td>
+            </tr>
+            <tr>
+                <td>Validity : DTD and Relax N G</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td class="yellow">8.00 a.m.</td>
+                <td class="green">11.00 a.m.</td>
+                <td rowspan="1">XPath</td>
+            </tr>
+            <tr>
+                <td class="yellow">11.00 a.m.</td>
+                <td class="green">2.00 p.m.</td>
+                <td rowspan="2"> XSL Trasformations</td>
+            </tr>
+            <tr>
+                <td class="green">2.00 p.m.</td>
+                <td class="purple">5.00 p.m.</td>
+
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td class="yellow">8.00 a.m.</td>
+                <td class="green">12.00 p.m.</td>
+                <td> XSL formatting Objects</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
